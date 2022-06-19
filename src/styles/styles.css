@@ -309,8 +309,12 @@
   .cat_block:before {
     width: 84%;
   }
+  .cat_block-selected:before {
+    width: 84%;
+  }
   .cat_block-selected {
     top: 61%;
+    margin-right: 10%;
   }
   .cat_buy {
     color: #fff;
