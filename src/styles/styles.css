@@ -268,7 +268,7 @@
 
   .cat_block-selected {
     margin-top: 50px;
-    top: 45%;
+    top: 60%;
     margin-right: 9%;
   }
   .cat_buy {
@@ -330,10 +330,14 @@
     margin-right: 30%;
   }
   .cat_block-selected {
-    top: 45%;
-    margin-right: 10%;
+    margin-top: 60px;
+    top: 50%;
+    margin-right: 30%;
   }
   .cat_block:before {
+    width: 80%;
+  }
+  .cat_block-selected:before {
     width: 80%;
   }
   .cat_buy {
