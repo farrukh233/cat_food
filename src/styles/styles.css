@@ -256,7 +256,7 @@
   }
   .cat_block {
     margin-top: 50px;
-    top: 45%;
+    top: 60%;
     margin-right: 9%;
   }
   .cat_block:before {
@@ -276,17 +276,11 @@
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 420px) {
   .wrapper {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    overflow: auto;
   }
   .background_title {
     font-size: 24px;
@@ -297,49 +291,15 @@
     padding-top: 5%;
   }
   .cat_block {
-    width: 320px;
-    height: 509px;
-    background-color: #f2f2f2;
     margin-top: 50px;
-    position: relative;
-    border-right: 4px solid #1698d9;
-    border-bottom: 4px solid #1698d9;
-    background: linear-gradient(
-      -45deg,
-      #f2f2f2 0%,
-      #f2f2f2 93%,
-      #1698d9 93%,
-      #1698d9 94%,
-      rgba(0, 0, 0, 0) 80%,
-      rgba(0, 0, 0, 0) 100%
-    );
-    border-radius: 5px;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    top: 45%;
+    top: 50%;
     margin-right: 10%;
   }
+  .cat_block:before {
+    width: 83%;
+  }
   .cat_block-selected {
-    width: 320px;
-    height: 509px;
-    background-color: #f2f2f2;
-    margin-top: 50px;
-    position: relative;
     top: 45%;
-    border-right: 4px solid #d91667;
-    border-bottom: 4px solid #d91667;
-    background: linear-gradient(
-      -45deg,
-      #f2f2f2 0%,
-      #f2f2f2 93%,
-      #d91667 93%,
-      #d91667 94%,
-      rgba(0, 0, 0, 0) 80%,
-      rgba(0, 0, 0, 0) 100%
-    );
-    border-radius: 5px;
-    background-repeat: no-repeat;
-    cursor: pointer;
     margin-right: 10%;
   }
   .cat_buy {
@@ -347,5 +307,42 @@
     position: absolute;
     top: 105%;
     left: 13%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .background_title {
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+    font-family: "ConvExo";
+    padding-top: 5%;
+  }
+  .cat_block {
+    margin-top: 60px;
+    top: 50%;
+    margin-right: 30%;
+  }
+  .cat_block-selected {
+    top: 45%;
+    margin-right: 10%;
+  }
+  .cat_block:before {
+    width: 80%;
+  }
+  .cat_buy {
+    color: #fff;
+    position: absolute;
+    top: 105%;
+    left: 13%;
+  }
+  .cat_weight {
+    left: 65%;
   }
 }
